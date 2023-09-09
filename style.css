@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+   background-color: rgb(101, 139, 127);  
+   
+}
+.elem{
+    position: relative;
+    height: 25vh;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    mix-blend-mode:soft-light;
+    opacity: 0;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 2px rgb(79, 123, 199),10px 7px 2px rgb(74, 126, 62);
+    font-size: 4rem;
+    color: rgb(238, 59, 15);
+    opacity: 0.8;
+}
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    /* color: rgb(140, 137, 137); */
+}
